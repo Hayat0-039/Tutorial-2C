@@ -14,8 +14,13 @@ img {
   margin: 2rem;
 }
 
-.content {}
+.content {
+  display: flex;
+}
 
-.content img {}
+.content img {
+  content-fit: cover;
+  width: 25%;
+}
 
 figure {}
